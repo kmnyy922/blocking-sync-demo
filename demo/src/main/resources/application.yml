@@ -1,0 +1,5 @@
+server:
+  port: 8080
+  tomcat:
+    threads:
+      max: 10        # 데모 ②: 요청 스레드를 10개로 제한해서 스레드 풀 고갈을 쉽게 재현
